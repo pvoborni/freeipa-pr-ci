@@ -1,6 +1,6 @@
 - name: Turn off build-in OpenSSH server
   win_service:
-    name: "ssh"
+    name: "sshd"
     state: "absent"
 
 - name: Check if cygwin sshd service exists
